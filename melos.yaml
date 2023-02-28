@@ -1,0 +1,13 @@
+name: new_auto_route
+
+packages:
+  - packages/**
+
+command:
+  bootstrap:
+    usePubspecOverrides: true
+    # https://github.com/dart-lang/pub/issues/3404)
+    runPubGetInParallel: false
+
+ide:
+  intellij: false

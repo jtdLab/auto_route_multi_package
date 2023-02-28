@@ -1,0 +1,6 @@
+# melos_managed_dependency_overrides: page_a_new,page_b_new
+dependency_overrides:
+  page_a_new:
+    path: ../page_a_new
+  page_b_new:
+    path: ../page_b_new
