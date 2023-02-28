@@ -1,4 +1,4 @@
-To work with this project
+## Quick Start 🚀
 
 1. Install Melos
 
@@ -11,12 +11,26 @@ dart pub global activate melos
 melos bootstrap
 ```
 
+## Overview 
+
 The project contains 2 parts.
 
-`app_old`:
+#### `app_old` (`auto_route 5.0.4`) :
 
-Example how routing works across multiple packages (`auto_route 5.0.4`) 
+✅ Routing across multiple packages is possible
 
-`app_new`:
+#### `app_new` (`auto_route 6.0.0-rc-1`):
 
-Example how routing does NOT work across multiple packages (`auto_route 6.0.0-rc-1`) 
+❌ Routing across multiple packages is NOT possible
+
+##### Proposal:
+How to make multi package routing work.
+
+TODO
+
+-----
+
+Hint: To run codegen in one of the `app` packages use
+```bash
+melos codegen
+```
